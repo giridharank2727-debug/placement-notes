@@ -67,4 +67,8 @@ numbers.forEach(function(num) {
 });
 /* Output:
 1
-2   
+2
+3
+4
+5
+*/

@@ -90,9 +90,9 @@ if (age1 < 18) {
     console.log("YOU CAN VOTE");
 }
 // IF ELSE IF EXAMPLE
-const prompt = require("prompt-sync")();
+const newprompt = require("prompt-sync")();
 
-let age2 = prompt("Enter your age: ");
+let age2 = newprompt("Enter your age: ");
 age2 = Number(age2); // convert to number
 
 if (age2 < 18) { 
