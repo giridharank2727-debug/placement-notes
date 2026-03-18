@@ -1,7 +1,6 @@
-console.log("Start");
-
-setTimeout(() => {
-  console.log("Done (after 1 second)");
-}, 1000);
-
-console.log("End");
+let k = 0;
+do {
+  console.log(k);
+  k++;
+ }
+  while (k < 5);
