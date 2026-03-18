@@ -1,12 +1,7 @@
-function varExample() {
-  var count = 10;
+console.log("Start");
 
+setTimeout(() => {
+  console.log("Done (after 1 second)");
+}, 1000);
 
-  var count = 20;
-
-
-  count = 30;
-
-  console.log("var count:", count);
-}
-varExample();
+console.log("End");
